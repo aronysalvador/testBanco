@@ -1,68 +1,80 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## NOTA IMPORTANTE:
+Antes de empezar, si la aplicacion se desplegara en un ambiente ajeno al "ambiente corporativo Bice" seguramente dara errores al consumo de la api (https://www.indecon.online/).
+Dado que presenta un control de acceso HTTP (CORS) y la solucion de dicho tema es a traves de BAck End de dicho Servidor.
+Si desea ejecutarla fuera de dicho ambiente es posible solucionar a medias la situacion instalando una extension de Chrome llama CORS Unblock.
 
-## Available Scripts
+Saludos
 
+## ----------- English  ----------- ##
+
+## IMPORTANT NOTE:
+Before starting, if the application is deployed in an environment other than the "Bice corporate environment" it will surely give rise to errors in the consumption of the api (https://www.indecon.online/).
+Since it presents an access control HTTP (CORS) and the solution of this issue is through BAck End of said Server.
+If you want to run it outside this environment it is possible to solve the situation by installing a Chrome extension called CORS Unblock.
+
+regards
+
+## ---------------------------------------------------------------------------------------------------
+
+Este Proyecto esta creado con [Create React App](https://github.com/facebook/create-react-app) y fue elaborado por Ing Arony Salvador Noguera para le empresa Bice 29/03/2019 Santiago de Chile.
+El mismo consite en consultar siguiente api "d https://www.indecon.online/" y obtener los valores de los Activos correspondiente segun se seleccion en el Select.
+Herramientas Utilizadas:
+React (Framework Front-End)
+Materialize(Framework Estilos)
+Jest(Framework Test)
+## ----------- English  ----------- ##
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and was elaborated by Ing Arony Salvador Noguera for the company Bice 03/29/2019 Santiago de Chile.
+It consists of consulting the following api "d https://www.indecon.online/" and obtaining the values ​​of the corresponding Assets as selected in the Select.
+Used tools:
+React (Front-End Framework)
+Materialize(Styleds Framework)
+Jest(Test Framework)
+
+
+
+
+## Scripts Disponibles 
+## Available Scripts 
+
+En el siguiente directorio puedes correr los siguientes Scripts: 
+## ----------- English  ----------- ##
 In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.<br />
+
+
+### `npm start`
+Ejecuta la aplicación en modo de desarrollo.
+Abra [http: // localhost: 3000] (http: // localhost: 3000) para verlo en el navegador.
+
+La página se volverá a cargar si realiza modificaciones. 
+También verá errores en la consola del navegador.
+## ----------- English  ----------- ##
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
+The page will reload if you make edits.
 You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+
+### `npm test`
+Se inicia el test de modo interactivo.
+## ----------- English  ----------- ##
+Launches the test runner in the interactive watch mode.
+
+
+
 
 ### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
+Compila la aplicación para producción en la carpeta `build`.
+Empaqueta correctamente React en modo de producción y optimiza la compilación para obtener el mejor rendimiento.
+La compilación se minimiza y los nombres de archivo incluyen los hashes
+¡Tu aplicación está lista para implementarse!
+## ----------- English  ----------- ##
+Builds the app for production to the `build` folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
+The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

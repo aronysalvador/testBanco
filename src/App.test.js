@@ -1,9 +1,29 @@
 import React from 'react';
-import { render } from '@testing-library/react';
 import App from './App';
+import Header from './components/Header';
+import Formulario from './components/Formulario';
+import Activos from './components/Activos';
+import Error from './components/Error';
+import { shallow } from 'enzyme';
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+it('renders without crashing', () => {
+  shallow(<App />);
 });
+
+it('renders without crashing', () => {
+    shallow(<Header />);
+});
+  
+it('renders without crashing', () => {
+shallow(<Formulario />);
+});
+
+it('renders without crashing', () => {
+    shallow(<Activos />);
+});
+  
+
+it('renders without crashing', () => {
+shallow(<Error />);
+});
+  
